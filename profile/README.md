@@ -17,6 +17,10 @@
 	<img src="https://github.com/user-attachments/assets/9155c079-210e-46d0-bb11-865e2e90f68e" width="100" height="100">
 <a></p>
 
+## Overview
+
+> Zeur blends DeFi lending with staking to let users borrow EUR stablecoins while earning yield on their crypto collateral.
+
 Zeur is a decentralized lending platform where users can borrow EUR-backed stablecoins (e.g., EURC) without paying interest by using crypto assets like ETH, LINK, or LSTs as collateral. Instead of charging interest, the protocol earns yield from staking/lending strategies and passes it to EURC lenders.
 
 ## The Problem We Solve
@@ -36,10 +40,6 @@ Zeur offers:
 * **Zero-interest, flexible repayment** for borrowers
 * **High, stable yields** on EURC for lenders
 * A smooth **bridge between crypto and real-world spending** using regulated, fiat-backed EURC
-
-## Overview
-
-Zeur blends DeFi lending with staking to let users borrow EUR stablecoins while earning yield on their crypto collateral.
 
 ## Key Features
 
