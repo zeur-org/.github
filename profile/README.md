@@ -3,7 +3,7 @@
 <h3 align="center">A <code>Zero-Interest</code> Loan Protocol for the Real Economy</h3>
 
 <p align="center">
-  <a href="https://www.zeur.org/dashboard" style="color: #a77dff">Zeur Platform</a> | <a href="" style="color: #a77dff">Demo Video</a> | <a href="https://www.figma.com/deck/CmaR3CCAjsUcXbZdqYWKfq" style="color: #a77dff">Pitchdeck</a>
+  <a href="https://www.zeur.org/dashboard" style="color: #a77dff">Zeur Platform</a> | <a href="" style="color: #a77dff">Demo Video</a> | <a href="https://www.figma.com/deck/CmaR3CCAjsUcXbZdqYWKfq" style="color: #a77dff">Pitchdeck</a> | <a href="https://github.com/zeur-org/zeur-core/blob/master/docs/Deployments/deployed-v1.md" style="color: #a77dff">Core contract lists</a>
 </p>
 
 <h2 align="center">Sponsor (Click on the logo)</h2>
@@ -58,4 +58,4 @@ Zeur offers:
 - VaultManager: Manages collateral, rebalances portfolios, handles staking, and distributes yield.
 - ElizaOS + Chainlink Automation: Executes automated strategies and rebalances based on real-time data.
 
-## [Core contract lists](https://github.com/zeur-org/zeur-core/blob/master/docs/Deployments/deployed-v1.md)
+## 
