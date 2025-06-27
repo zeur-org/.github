@@ -58,4 +58,10 @@ Zeur offers:
 - VaultManager: Manages collateral, rebalances portfolios, handles staking, and distributes yield.
 - ElizaOS + Chainlink Automation: Executes automated strategies and rebalances based on real-time data.
 
-## 
+## How to integrate the sponsor?
+
+### Avalanche
+
+### Chainlink
+
+### ElizaOS
