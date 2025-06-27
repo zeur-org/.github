@@ -1,4 +1,21 @@
-## Zeur: A Zero-Interest Loan Protocol for the Real Economy
+<h1 align="center">Zeur Protocol</h1>
+
+<h3 align="center">A <code>Zero-Interest</code> Loan Protocol for the Real Economy</h3>
+
+<p align="center">
+  <a href="https://www.zeur.org/dashboard" style="color: #a77dff">Zeur Platform</a> | <a href="" style="color: #a77dff">Demo Video</a> | <a href="https://www.figma.com/deck/CmaR3CCAjsUcXbZdqYWKfq" style="color: #a77dff">Pitchdeck</a>
+</p>
+
+<h2 align="center">Sponsor (Click on the logo)</h2>
+
+<p align="center">
+<a href="" height="5" width="10" target="_blank">
+	<img src="https://github.com/user-attachments/assets/debeb0c3-c752-4347-b103-63f7e18c7895" width="100" height="100">
+<a><a href="" height="5" width="10" target="_blank">
+	<img src="https://github.com/user-attachments/assets/2298459f-4579-4545-8b81-d9c3ea8b7523" width="90" height="100">
+<a><a><a href="" height="5" width="10" target="_blank">
+	<img src="https://github.com/user-attachments/assets/9155c079-210e-46d0-bb11-865e2e90f68e" width="100" height="100">
+<a></p>
 
 Zeur is a decentralized lending platform where users can borrow EUR-backed stablecoins (e.g., EURC) without paying interest by using crypto assets like ETH, LINK, or LSTs as collateral. Instead of charging interest, the protocol earns yield from staking/lending strategies and passes it to EURC lenders.
 
