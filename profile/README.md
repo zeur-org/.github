@@ -9,11 +9,11 @@
 <h2 align="center">Sponsor (Click on the logo)</h2>
 
 <p align="center">
-<a href="" height="5" width="10" target="_blank">
+<a href="https://github.com/zeur-org/.github/blob/main/profile/README.md#avalanche" height="5" width="10" target="_blank">
 	<img src="https://github.com/user-attachments/assets/debeb0c3-c752-4347-b103-63f7e18c7895" width="100" height="100">
-<a><a href="" height="5" width="10" target="_blank">
+<a><a href="https://github.com/zeur-org/.github/blob/main/profile/README.md#chainlink" height="5" width="10" target="_blank">
 	<img src="https://github.com/user-attachments/assets/2298459f-4579-4545-8b81-d9c3ea8b7523" width="90" height="100">
-<a><a><a href="" height="5" width="10" target="_blank">
+<a><a><a href="https://github.com/zeur-org/.github/blob/main/profile/README.md#elizaos" height="5" width="10" target="_blank">
 	<img src="https://github.com/user-attachments/assets/9155c079-210e-46d0-bb11-865e2e90f68e" width="100" height="100">
 <a></p>
 
