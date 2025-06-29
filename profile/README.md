@@ -3,7 +3,7 @@
 <h3 align="center">A <code>Zero-Interest</code> Loan Protocol for the Real Economy</h3>
 
 <p align="center">
-  <a href="https://www.zeur.org/dashboard" style="color: #a77dff">Zeur Platform</a> | <a href="" style="color: #a77dff">Demo Video</a> | <a href="https://www.figma.com/deck/CmaR3CCAjsUcXbZdqYWKfq" style="color: #a77dff">Pitchdeck</a> | <a href="https://zeur.gitbook.io/zeur/" style="color: #a77dff">Docs</a> | <a href="https://github.com/zeur-org/zeur-core/tree/master/docs/Deployments" style="color: #a77dff">Core contract lists</a>
+  <a href="https://www.zeur.org/dashboard" style="color: #a77dff">Zeur Platform</a> | <a href="https://youtu.be/Ubt-k-e2Hw4" style="color: #a77dff">Demo Video</a> | <a href="https://www.figma.com/deck/CmaR3CCAjsUcXbZdqYWKfq" style="color: #a77dff">Pitchdeck</a> | <a href="https://zeur.gitbook.io/zeur/" style="color: #a77dff">Docs</a> | <a href="https://github.com/zeur-org/zeur-core/tree/master/docs/Deployments" style="color: #a77dff">Core contract lists</a>
 </p>
 
 <h2 align="center">Sponsor (Click on the logo)</h2>
@@ -61,7 +61,6 @@ Zeur offers:
 ## How to integrate the sponsor?
 
 ### [Avalanche](https://github.com/zeur-org/zeur-core)
-**[Avalanche Fuji deployments](https://zeur.gitbook.io/zeur/deployments/avalanche-fuji)**
 We provide users with multi-network convenience (Ethereum, Avalanche). We choose the networks based on the availability of EUR stablecoins (MICA-compliant as EURC) and liquid staking protocols. On Avalanche, borrowers can deposit AVAX, which is automatically deposited in Benqi staked AVAX (sAVAX). Lenders can deposit their EURC (present on Avalanche) and earn yield.
 
 This is a win-win situation:
@@ -69,12 +68,27 @@ This is a win-win situation:
 - EURC holders on Avalanche can earn organic, stable yield from sAVAX.
 - Avalanche network becomes more secure with more AVAX participating in the liquid staking protocol (Benqi).
 
+- **[Avalanche Fuji deployments](https://zeur.gitbook.io/zeur/deployments/avalanche-fuji)**
+
 ### [Chainlink](https://github.com/zeur-org/zeur-core)
 We build a novel kind of lending market - zero interest lending, that lives entirely on-chain, unlocking crypto liquidity for everyday spending.
 It is a combination of lending market, liquid staking, yield aggregator, AI agent for strategy optimization.
 Collateral is simultaneously staked in liquid-staking platforms that secure Layer-1 chains (Ethereum, Chainlink, Avalanche), so assets earn yield even while backing loans.
 By weaving these Chainlink services together, we demonstrate how verifiable data, autonomous execution, and native staking can power the next generation of secure, transparent financial products that bridge on-chain value with real-world spending.
 Unlock cash, keep your crypto. Zero interest. Real Euros.
+
+The protocol’s security and automation rely on the full Chainlink stack:
+
+- Chainlink Price Feeds deliver real-time asset prices for safe LTV calculations, borrow/withdraw limits, and liquidations in the Pool contract.
+  - [ChainlinkOracleManager](https://github.com/zeur-org/zeur-core/blob/master/src/chainlink/ChainlinkOracleManager.sol)
+  - [Pool](https://github.com/zeur-org/zeur-core/blob/master/src/pool/Pool.sol)
+
+- Chainlink Automation runs scheduled yield-harvest and distribution cycles, keeping payouts transparent and on time.
+  - [ProtocolVaultManager](https://github.com/zeur-org/zeur-core/blob/master/src/pool/manager/ProtocolVaultManager.sol)
+
+- Chainlink Staking lets users post staked LINK as collateral, adding a new utility layer for the LINK community while reinforcing network security.
+  - [VaultLINK](https://github.com/zeur-org/zeur-core/blob/master/src/pool/vault/VaultLINK.sol)
+  - [StakingRouterLINK](https://github.com/zeur-org/zeur-core/blob/master/src/pool/router/StakingRouterLINK.sol)
 
 ### [ElizaOS](https://github.com/zeur-org/zeur-elizaos)
 In Zeur, an ElizaOS agent automates collateral management by:
