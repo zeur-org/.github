@@ -53,10 +53,14 @@ Zeur offers:
 ![image](https://github.com/user-attachments/assets/9057d1eb-29cf-4c09-8592-e367b041c279)
 
 > Overall Flow Summary
-- Borrower: Deposits collateral and borrows zero-interest EUR stablecoins.
-- Lender: Deposits EUR stablecoins to provide liquidity and earn yield.
-- VaultManager: Manages collateral, rebalances portfolios, handles staking, and distributes yield.
-- ElizaOS + Chainlink Automation: Executes automated strategies and rebalances based on real-time data.
+- **Pool**: entry contract for users (supply, withdraw, borrow, repay, liquidate)
+- **Vaults**: manage user deposited asset through Pool, interact with routers to stake asset in LST protocol.
+- **StakingRouter**: plug-and-play contract that have the same interface, but different logics for each LST protocol (Lido, Etherfi, RocketPool, StakeLink or lending like Morpho)
+- **Tokenization**: ColEURC/DebtEUR represent the user's supply/debt of EUR stablecoins, ColToken represents the user's collateral
+- **ChainlinkOracleManager**: to get price of asset through Chainlink price feeds
+- **VaultManager**: dedicated contract with harvest/distribute yield and rebalance portfolio logics
+- **Chainlink Automation**: time-based keeper that execute distribute yield
+- **ElizaOS**: offchain "brain" to monitor position, create strategy, execute rebalance
 
 ## How to integrate the sponsor?
 
