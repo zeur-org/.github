@@ -60,16 +60,27 @@ Zeur offers:
 
 ## How to integrate the sponsor?
 
-### [Avalanche](https://github.com/zeur-org/zeur-core/tree/master/script)
-By providing cross-chain services on the Ethereum and Avalanche networks, we provide users with multi-network convenience.
-We automatically deposit the sAVAX assets entrusted by the borrower as collateral into the Benqi DeFi protocol based on the Avalanche network with high yields and stable staking pools through AI agents to generate profits, provide 0% lending interest, and provide a % of the profit-earning assets to the lender as additional profits.
-At this time, the EURC provided to the lender is also provided based on the Avalanche network, providing users with the convenience of utilizing both Ethereum and Avalanche networks.
+### [Avalanche](https://github.com/zeur-org/zeur-core)
+**[Avalanche Fuji deployments](https://zeur.gitbook.io/zeur/deployments/avalanche-fuji)**
+We provide users with multi-network convenience (Ethereum, Avalanche). We choose the networks based on the availability of EUR stablecoins (MICA-compliant as EURC) and liquid staking protocols. On Avalanche, borrowers can deposit AVAX, which is automatically deposited in Benqi staked AVAX (sAVAX). Lenders can deposit their EURC (present on Avalanche) and earn yield.
 
-### [Chainlink](https://github.com/zeur-org/zeur-core/tree/master/script)
-Zeur provides a zero-interest lending protocol based on the Euro stable coin EURC, focusing on the European market.
-Borrowers can borrow EURC by collateralizing stETH or LINK, and the stETH and LINK deposited as collateral are deposited in the most stable and profitable Vault services, such as AAVE, LIDO, Ether.fi, and Chainlink staking services, through AI agents to earn interest. 
-This is done through real-time monitoring, and the agent automatically analyzes and deposits efficient strategic areas, while utilizing Chainlink automation and data streams to manage the assets deposited in the Vault.
-Since the assets deposited as collateral are earning profits on their own, the lending interest is provided as zero, and additional EURC profits are earned for the lenders who provided EURC. This is a % provided on the profits earned through collateral.
+This is a win-win situation:
+- AVAX holders can borrow EURC with zero cost while keeping their AVAX.
+- EURC holders on Avalanche can earn organic, stable yield from sAVAX.
+- Avalanche network becomes more secure with more AVAX participating in the liquid staking protocol (Benqi).
+
+### [Chainlink](https://github.com/zeur-org/zeur-core)
+We build a novel kind of lending market - zero interest lending, that lives entirely on-chain, unlocking crypto liquidity for everyday spending.
+It is a combination of lending market, liquid staking, yield aggregator, AI agent for strategy optimization.
+Collateral is simultaneously staked in liquid-staking platforms that secure Layer-1 chains (Ethereum, Chainlink, Avalanche), so assets earn yield even while backing loans.
+By weaving these Chainlink services together, we demonstrate how verifiable data, autonomous execution, and native staking can power the next generation of secure, transparent financial products that bridge on-chain value with real-world spending.
+Unlock cash, keep your crypto. Zero interest. Real Euros.
 
 ### [ElizaOS](https://github.com/zeur-org/zeur-elizaos)
-In the Zeur protocol, AI agents are responsible for managing the yield strategy, monitoring staking services (Vaults) on various DeFi protocols such as AAVE, LIDO, Ether.fi, and Chainlink, analyzing yields, and providing automated deposit and portfolio management services to deposit in the most stable and efficient pools to generate profits.
+In Zeur, an ElizaOS agent automates collateral management by:
+- Tracking the current vault composition and LST balances
+- Fetching APRs from Lido, EtherFi, Rocket Pool, and Morpho
+- Assessing performance, risk, and available liquidity
+- Determining optimal allocations and strategies
+- Executing on-chain rebalancing transactions accordingly
+This agent-driven approach delivers efficient, hands-off portfolio management for the protocol.
