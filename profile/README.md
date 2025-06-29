@@ -60,12 +60,12 @@ Zeur offers:
 
 ## How to integrate the sponsor?
 
-### Avalanche
+### [Avalanche](https://github.com/zeur-org/zeur-core/tree/master/script)
 By providing cross-chain services on the Ethereum and Avalanche networks, we provide users with multi-network convenience.
 We automatically deposit the sAVAX assets entrusted by the borrower as collateral into the Benqi DeFi protocol based on the Avalanche network with high yields and stable staking pools through AI agents to generate profits, provide 0% lending interest, and provide a % of the profit-earning assets to the lender as additional profits.
 At this time, the EURC provided to the lender is also provided based on the Avalanche network, providing users with the convenience of utilizing both Ethereum and Avalanche networks.
 
-### Chainlink
+### [Chainlink](https://github.com/zeur-org/zeur-core/tree/master/script)
 Zeur provides a zero-interest lending protocol based on the Euro stable coin EURC, focusing on the European market.
 Borrowers can borrow EURC by collateralizing stETH or LINK, and the stETH and LINK deposited as collateral are deposited in the most stable and profitable Vault services, such as AAVE, LIDO, Ether.fi, and Chainlink staking services, through AI agents to earn interest. 
 This is done through real-time monitoring, and the agent automatically analyzes and deposits efficient strategic areas, while utilizing Chainlink automation and data streams to manage the assets deposited in the Vault.
