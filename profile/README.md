@@ -64,4 +64,4 @@ Zeur offers:
 
 ### Chainlink
 
-### ElizaOS
+### [ElizaOS](https://github.com/zeur-org/zeur-elizaos)
